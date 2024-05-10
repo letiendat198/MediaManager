@@ -8,6 +8,11 @@ A convenient app to download and edit metadata for Spotify tracks and Youtube vi
 - Get liked tracks and playlists from Spotify \
   (You will need to bring your own Spotify API secrets. Get yours
 [here](https://developer.spotify.com/). You can also request to use mine [here]())
+#### NOTE: Please put the following addresses as Redirect URIs if you decide to use your own API key
+```
+http://localhost:1908
+http://127.0.0.1:36914/spotify
+```
 - Get individual Youtube video or an entire playlist
 - Search for the corresponding video on Youtube
 - Download from Youtube
